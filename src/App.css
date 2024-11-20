@@ -26,7 +26,7 @@
   margin: auto;
   background-color: grey;
 }
-input{
+.register form input{
   width: 350px;
   height: 40px;
   border: none;
@@ -48,12 +48,14 @@ input{
 }
 #logBtn{
   padding: 10px;
+  outline: none;  
   border: none;
-  outline: none;
   background-color: aliceblue;
   color: grey;
   cursor: pointer;
-  width: 100px
+  width: 100px;
+  height: 40px;
+  margin: 10px auto;
 }
 .otp{
   display: grid;
@@ -110,10 +112,19 @@ outline: none;
   flex-direction: column;
   background-color: grey;
   width: 400px;
-  height: 350px;
+  height: 300px;
   border: 1px solid grey;
   margin: auto;  
   border: 1px solid grey;
+}
+.login form input{
+  width: 350px;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin: auto;
+  text-align: start;
+  padding: 5px;
 }
 .spinner{
   width: 20px;
