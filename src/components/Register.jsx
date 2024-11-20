@@ -24,8 +24,10 @@ function Register() {
       .then((res) => res.json())
       .then((data) => {
         if (data === "Email with OTP sent!") {
-          alert(`OTP sent to ${email}`);
-          navigate("/activate");
+          setTimeout(() => {
+            alert(`OTP sent to ${email}`);
+            navigate("/activate");
+          }, 3000);
         } else {
           alert(data);
         }

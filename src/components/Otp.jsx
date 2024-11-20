@@ -21,10 +21,12 @@ function Otp() {
       .then((res) => res.json())
       .then((data) => {
         if (data === "Account activated!") {
+         setTimeout(() => {
           alert("Congrats! Email activated.");
           navigate("/login");
+         }, 3000);
         } else {
-          alert(data);
+        alert(data);
         }
       })
       .catch((err) => console.log(err.message))
