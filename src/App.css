@@ -12,6 +12,7 @@
   display: grid;
   place-content: center;
   height: 100vh;
+  margin: auto;
  
 }
 .register form{
@@ -20,26 +21,30 @@
   justify-content: center;
   flex-direction: column;
   width: 400px;
-  height: 400px;
+  height: 300px;
   border: 1px solid grey;
   margin: auto;
   background-color: grey;
 }
 input{
-  margin: 10px auto;
-  padding: 10px;
+  width: 350px;
+  height: 40px;
   border: none;
   outline: none;
+  margin: auto;
+  text-align: start;
+  padding: 5px;
 }
 #regBtn{
   padding: 10px;
+  outline: none;  
   border: none;
-  outline: none;
   background-color: aliceblue;
   color: grey;
   cursor: pointer;
   width: 100px;
   height: 40px;
+  margin: 10px auto;
 }
 #logBtn{
   padding: 10px;
@@ -149,8 +154,8 @@ p{
 .divspin{
   border: 1px solid grey;
   padding: 10px;
-  background-color: grey;
-  color: white;
+  background-color: aliceblue;
+  color: grey;
   cursor: pointer;
   width: 100px;
   height: 40px;
