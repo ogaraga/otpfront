@@ -12,7 +12,7 @@ function Login() {
   const handleSubmit = async (e)=>{
     e.preventDefault();
     setstate(isLoading);
-    await fetch('https://one-time-password-omega.vercel.app/login',{
+    await fetch('https://otpback.vercel.app/login',{
       method:'POST',
       headers:{
         'content-type': 'application/json'

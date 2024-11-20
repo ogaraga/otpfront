@@ -11,7 +11,7 @@ function Otp() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setState(isLoading);
-    await fetch("https://one-time-password-omega.vercel.app/activateAccount", {
+    await fetch("https://otpback.vercel.app/activateAccount", {
       method: "POST",
       headers: {
         "content-type": "application/json",
