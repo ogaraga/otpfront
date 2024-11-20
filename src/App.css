@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  background-color: aliceblue;
+  margin: 0 auto;
+}
+
+.register{
+  display: grid;
+  place-content: center;
+  height: 100vh;
+ 
+}
+.register form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  border: 1px solid grey;
+  margin: auto;
+  background-color: grey;
+}
+input{
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+#regBtn{
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: aliceblue;
+  color: grey;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+}
+#logBtn{
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: aliceblue;
+  color: grey;
+  cursor: pointer;
+  width: 100px
+}
+.otp{
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: aliceblue;
+}
+.otp form{  
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 400px;  
+  background-color: black;
+  color: white;
+  margin: 10px auto;
+}
+.reduce input{
+  width: 100px;
+  height: 40px;
+  /* text-align: center; */
+}
+p,span{
+  margin-left: 5px;
+  cursor: pointer;
+  color: white;
+}
+h2{
+  color: white;
+}
+#activate{
+width: 100px;
+height: 40px;
+text-align: center;
+cursor: pointer;
+background-color: aliceblue;
+color: grey;
+border: none;
+outline: none;
+}
+.reduce input, #activate{
+  margin: auto
+}
+.login{
+ 
+  display: grid;
+  place-content: center;
+  height: 100vh; 
+}
+.login form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: grey;
+  width: 400px;
+  height: 350px;
+  border: 1px solid grey;
+  margin: auto;  
+  border: 1px solid grey;
+}
+.spinner{
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+  border: 1px dashed white;
+  border-width: 2px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  from{
+    transform: rotate(0turn);
+  }
+  to{
+    transform: rotate(1turn);
+  } 
+}
+h1{
+  color: green;
+  text-align: center;
+  text-transform: capitalize;
+}
+p{
+  color: blue;
+  text-align: center;
+  margin-top: 10px;
+  width: auto;
+}
+.home{
+  background-color: aliceblue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.divspin{
+  border: 1px solid grey;
+  padding: 10px;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.divspin2{
+  color: white;
+  cursor: pointer; 
+  width: 250px; 
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  gap: 10px;
+}
+#span{
+  border: 1px solid grey;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  margin: 10px auto ;
+  color: white;
+  background-color: grey;
+  cursor: pointer;
+
+}
